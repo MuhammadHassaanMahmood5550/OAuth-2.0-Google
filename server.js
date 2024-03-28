@@ -25,8 +25,8 @@ passport.use(
   new oauthGoogleStratagy(
     {
       clientID:
-        "82936669022-8gb0vjaje2eoa17k69ffq3d724q3vlrp.apps.googleusercontent.com",
-      clientSecret: "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",
+        "*******",
+      clientSecret: "*******",
       callbackURL: "http://localhost:4000/callBackURL",
     },
     (accessToken, refreshToken, profile, done) => {
